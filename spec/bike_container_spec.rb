@@ -37,5 +37,5 @@ shared_examples "a bike container" do
 	it "has no broken bikes after releasing them" do 
 		station_with_bikes.release_broken_bikes
 		expect(station_with_bikes.broken_bikes).to eq [] 
-	end
+	end 
 end
