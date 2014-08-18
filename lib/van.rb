@@ -1,5 +1,5 @@
 require 'bike_container'
 
-class DockingStation
+class Van 
 	include BikeContainer
 end
